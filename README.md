@@ -139,6 +139,9 @@ CDS FASTA headers are normalized to produce a single BLAST-safe token. The trans
 | `2` | One or more files failed to process. |
 
 ---
+## Acknowledgements
+
+`gb_processor` began as a reimplementation of [Schott-Lab/Extract-CDS-Genbank](https://github.com/Schott-Lab/Extract-CDS-Genbank). Its CDS-extraction core and the `sed`-based header-cleaning pipeline are reproduced from that project; all other functionality — taxonomy-based sorting, the unified multi-mode command-line interface, flexible file/directory input handling, configurable cleanup behavior, and resilient batch processing — is original to this tool.
 
 ## License
 
@@ -146,4 +149,4 @@ Released under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Author
 
-Arshia Farajollahi
+Arshia Farajollahi | 
